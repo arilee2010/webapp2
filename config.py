@@ -1,5 +1,6 @@
 #liy 20171111 debug
 import os
+import logging
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -30,7 +31,6 @@ class ProductionConfig(Config):
     @classmethod
     def init_app(cls, app):
         Config.init_app(app)
-
     
 config = {
     'development': DevelopmentConfig,
