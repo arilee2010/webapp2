@@ -1,6 +1,8 @@
 #liy 20171111 debug
 import os
 import logging
+import sys
+
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
